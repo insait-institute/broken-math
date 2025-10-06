@@ -1,0 +1,7 @@
+name: "Training Data"
+slug: "training_data"
+admins:
+  - "sycophancy-1"
+
+model_configs:
+  - "qwen/qwen3_4b"

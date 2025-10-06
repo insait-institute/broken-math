@@ -1,0 +1,10 @@
+model: grok-4-fast-reasoning
+api: xai
+max_tokens: 130000
+read_cost: 0.2
+write_cost: 0.5
+human_readable_id: Grok 4 Fast (Reasoning)
+concurrent_requests: 16
+temperature: null
+top_p: null
+date: "2025-09-19"

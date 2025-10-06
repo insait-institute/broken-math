@@ -1,0 +1,8 @@
+dataset: INSAIT-Institute/OPC_problems
+partitions:
+ - generic
+ - putnambench
+ - matharena
+ - test
+solution_column: ground_truth_solution
+n_problems: -1

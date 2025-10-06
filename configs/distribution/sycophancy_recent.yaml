@@ -1,0 +1,23 @@
+n_problems: 504
+overlap: 0
+judge_file: "configs/judges/sycophancy_recent.json"
+competition_weight:
+ elmosl: 1
+ bmosl: 1
+ canada: 1
+ imosl: 1
+ india: 1
+ usatst: 1
+ rmm: 1
+ bmo: 1
+ philippines: 1
+ chinatst: 1
+ israel: 1
+ korea: 1
+ izho: 1
+ turkey: 1
+ china: 1
+ egmo: 1
+ iran: 1
+ matharena: 1
+ allrussian: 1

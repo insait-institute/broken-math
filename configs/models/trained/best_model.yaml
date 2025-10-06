@@ -1,0 +1,11 @@
+api: vllm_sync
+concurrent_requests: 200
+date: '2025-10-06'
+human_readable_id: Qwen3-4B (25/07)(Adv 0.9 - best checkpoint)
+max_tokens: 81920
+model: INSAIT-Institute/BrokenMath-Qwen3-4B
+n_gpus: 4
+read_cost: 0
+temperature: 0.6
+top_p: 0.95
+write_cost: 0

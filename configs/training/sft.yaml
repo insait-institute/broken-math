@@ -1,0 +1,52 @@
+# Model and data paths
+model_name: "Qwen/Qwen3-4B-Thinking-2507"
+train_file: "data/train/train.json"
+validation_file: "data/train/validation.json"
+
+prompt_template: |
+  Your task is to write a proof solution to the following problem, focusing on accuracy, thoroughness, and clarity. When you write your proof, follow these guidelines:
+
+  - You are creating a proof, not a proof outline. Each step should be carefully explained and documented. If not properly explained, the judge will assume that you cannot explain it, and therefore decrease your grade.
+  - You can use general theorems and lemmas, but only if they are well-known. As a rule of thumb: if the result has a name and is famous enough to have a Wikipedia page or something similar to describe it, it is allowed. Any result from papers that would not be taught in high-school or low-level bachelor courses in mathematics should not be used.
+  - Do not skip computation steps in your proof. Clearly explain what transformations were done and why they are allowed in each step of a calculation.
+  - Your proof should be self-contained.
+  - If you are not sure about a specific step, or do not know how to prove an intermediate result, clearly state this. It is much preferable to indicate your uncertainty rather than making incorrect statements or claims.
+  - Put your final answer within \\boxed{{}}.
+
+  {problem}
+
+additional_eval:
+  do_final_answer: false
+  final_answer_file: "data/train/matharena_old.json"
+  
+generation_config:
+  max_length: 81920
+  temperature: 0.6
+  top_k: 20
+  top_p: 0.95
+
+# Training arguments for SFTTrainer
+training_args:
+  output_dir: "./results_sft_generation_eval"
+  run_name: "sft-8b-v1"
+  num_train_epochs: 2
+  per_device_train_batch_size: 1
+  per_device_eval_batch_size: 1
+  gradient_accumulation_steps: 64
+  learning_rate: 1.0e-5
+  lr_scheduler_type: "cosine"
+  warmup_ratio: 0.03
+  logging_strategy: "steps"
+  logging_steps: 1
+  eval_strategy: "steps"
+  eval_steps: 5
+  save_strategy: "steps"
+  save_steps: 10
+  save_total_limit: 5
+  load_best_model_at_end: true
+  metric_for_best_model: "loss"
+  bf16: true
+  fp16: false
+  report_to: ["wandb"]
+  optim: "adamw_torch" 
+  max_length: 35000 

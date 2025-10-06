@@ -1,0 +1,9 @@
+model: gpt-4.1-mini
+api: openai
+max_tokens: 16000
+read_cost: 0.4
+write_cost: 1.6
+human_readable_id: gpt-4.1-mini
+batch_processing: false
+openai_responses: true
+date: "2025-04-14"

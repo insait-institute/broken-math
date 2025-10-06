@@ -1,0 +1,12 @@
+model: Qwen/Qwen3-4B-Thinking-2507
+api: vllm_sync
+max_tokens: 81920
+temperature: 0.6
+top_p: 0.95
+concurrent_requests: 200
+read_cost: 0
+write_cost: 0
+n_gpus: 4
+logprobs: 20
+human_readable_id: Qwen3-4B (25/07)
+date: "2025-07-25"

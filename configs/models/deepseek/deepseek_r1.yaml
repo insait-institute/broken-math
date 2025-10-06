@@ -1,0 +1,9 @@
+model: deepseek/deepseek-r1
+api: openrouter
+max_tokens: 64000
+temperature: 0.6
+top_p: 0.95
+read_cost: 3
+write_cost: 7
+human_readable_id: DeepSeek-R1
+date: "2025-01-20"

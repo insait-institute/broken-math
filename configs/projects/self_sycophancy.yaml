@@ -1,0 +1,11 @@
+name: "Sycophancy Bench (Generation rephrasing)"
+slug: "self_sycophancy"
+admins:
+  - "sycophancy-1"
+
+model_configs:
+  - "openai/o4-mini--high"
+  - "qwen/qwen3_4b"
+  - "qwen/qwen3_235b_a22b"
+  - "openai/oss-120b"
+  - "deepseek/deepseek_v31"

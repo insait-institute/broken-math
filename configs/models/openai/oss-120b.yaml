@@ -1,0 +1,9 @@
+model: "openai/gpt-oss-120b"
+api: together
+max_tokens: 128000
+read_cost: 0.15
+write_cost: 0.60
+concurrent_requests: 16
+reasoning_effort: high
+human_readable_id: GPT OSS 120B (high)
+date: "2025-08-05"

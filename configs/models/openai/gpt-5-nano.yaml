@@ -1,0 +1,14 @@
+model: gpt-5-nano--high
+api: openai
+max_tokens: 128000
+read_cost: 0.05
+write_cost: 0.4
+concurrent_requests: 32
+temperature: null
+top_p: null
+human_readable_id: GPT-5-nano (high)
+batch_processing: false
+openai_responses: true
+date: "2025-08-07"
+reasoning:
+  summary: "auto"

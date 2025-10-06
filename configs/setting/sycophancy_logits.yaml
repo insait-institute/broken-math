@@ -1,0 +1,6 @@
+default_max_tokens: 64000
+default_temperature: 0.6
+name: "sycophancy_logits"
+prompt_path: "data/prompts/checker.txt" 
+data_path: "data/postprocess/sycophancy_logits/test_samples.json"
+n_solutions: -1

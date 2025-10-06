@@ -1,0 +1,17 @@
+name: "Sycophancy Bench (Original Recent Problems)"
+slug: "recent_comps"
+admins:
+  - "sycophancy-1"
+
+model_configs:
+  - "openai/o4-mini--high"
+  - "gemini/gemini-pro-2.5"
+  - "openai/gpt-5"
+  - "xai/grok-4"
+  - "deepseek/deepseek_distill_8b"
+  - "deepseek/deepseek_v31"
+  - "openai/oss-120b"
+  - "qwen/qwen3_235b_a22b"
+  - "qwen/qwen3_4b"
+  - "trained/best_model"
+  - "xai/grok-4-fast-reasoning"

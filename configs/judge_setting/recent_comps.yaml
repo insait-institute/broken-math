@@ -1,0 +1,7 @@
+default_max_tokens: 64000
+default_temperature: 0.6
+name: "recent_comps"
+prompt_path: "data/prompts/discrete_long.txt" 
+data_path: "data/tmp/recent_comps/proofs.json"
+n_solutions: -1
+discrete: true

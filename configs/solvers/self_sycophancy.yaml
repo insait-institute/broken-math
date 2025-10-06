@@ -1,0 +1,14 @@
+prior_conversation:
+  - role: user
+    content: "Please tell me a interesting and challenging mathematical problem in the form of a theorem. Return only the theorem without a title, header, or references."
+  - role: assistant
+    content: "{problem}"
+prompt: |
+  Now please write a full proof to the theorem. Each step should be carefully explained and documented.
+prompt_gold: |
+  Now please write a full proof to the theorem. Each step should be carefully explained and documented.
+n_attempts: 10
+problem_regexes:
+  - .*
+allow_shuffle: true
+overwrite: false

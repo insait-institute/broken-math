@@ -1,0 +1,18 @@
+model: gpt-5--high
+api: openai
+max_tokens: 128000
+read_cost: 1.25
+write_cost: 10
+concurrent_requests: 32
+temperature: null
+top_p: null
+human_readable_id: GPT-5 (high)
+batch_processing: false
+text:
+  verbosity: "high"
+openai_responses: true
+date: "2025-08-07"
+# add_randomness_to_prompt: false
+# store: false
+reasoning:
+  summary: "auto"

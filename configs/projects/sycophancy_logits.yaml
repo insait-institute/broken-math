@@ -1,0 +1,8 @@
+name: "Sycophancy Bench (w/ logits)"
+slug: "sycophancy_logits"
+admins:
+  - "sycophancy-1"
+
+model_configs:
+ - "qwen/qwen3_4b_logprobs"
+ - "qwen/qwen3_235b_a22b_logprobs"

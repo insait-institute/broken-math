@@ -1,0 +1,4 @@
+type: agent
+model_config: models/openai/gpt-5-nano
+agent_config: agent_scaffolds/standard
+human_readable_id: GPT-5-nano (High) Agent

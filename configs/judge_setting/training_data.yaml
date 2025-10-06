@@ -1,0 +1,7 @@
+default_max_tokens: 64000
+default_temperature: 0.6
+name: "training_data"
+prompt_path: "data/prompts/discrete_long.txt" 
+data_path: "data/tmp/training_data/proofs.json"
+n_solutions: -1
+discrete: true

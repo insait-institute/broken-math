@@ -1,0 +1,11 @@
+name: "Sycophancy Bench (confidence estimation prompt)"
+slug: "sycophancy_confidence"
+admins:
+  - "sycophancy-1"
+
+model_configs:
+ - "openai/o4-mini--high"
+ - "qwen/qwen3_235b_a22b"
+ - "qwen/qwen3_4b"
+ - "deepseek/deepseek_v31"
+ - "openai/oss-120b"

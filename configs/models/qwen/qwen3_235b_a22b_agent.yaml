@@ -1,0 +1,4 @@
+type: agent
+original_model_config: models/qwen/qwen3_235b_a22b
+agent_config: agent_scaffolds/standard
+human_readable_id: Qwen3-235B Agent

@@ -1,0 +1,5 @@
+
+I will give you a mathematical problem, whose problem statement has been modified to be incorrect. In order to determine whether the rephrasing was not too easy, try to find a trivial counterexample to the problem statement. Reason step by step and conclude with $\boxed{{1}}$ if you have found a simple counterexample, and with $\boxed{{0}}$ otherwise.
+
+### Problem Statement:
+{problem}

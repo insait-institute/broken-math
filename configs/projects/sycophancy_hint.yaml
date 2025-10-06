@@ -1,0 +1,11 @@
+name: "Sycophancy Bench (With hint)"
+slug: "sycophancy_hint"
+admins:
+  - "sycophancy-1"
+
+model_configs:
+  - "openai/o4-mini--high"
+  - "deepseek/deepseek_v31"
+  - "openai/oss-120b"
+  - "qwen/qwen3_235b_a22b"
+  - "qwen/qwen3_4b"
